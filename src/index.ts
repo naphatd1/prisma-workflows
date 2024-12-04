@@ -19,6 +19,9 @@ app.get('/api', (_:Request, res:Response) => {
 app.get('/api', (_:Request, res:Response) => {
     res.send('Hello World api 4')
 })
+app.get('/api', (_:Request, res:Response) => {
+    res.send('Hello World api 5')
+})
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
