@@ -8,7 +8,7 @@ on:
     types:
       - opened
     branches:
-      - '*oops1'
+      - '*oops2'
 
 jobs:
   build-job:
